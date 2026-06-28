@@ -1,0 +1,18 @@
+{
+  "US30": {
+    "symbol": "US30",
+    "final_equity": 99739.4755349908,
+    "total_return": -0.0026052446500920423,
+    "max_drawdown": -0.003248285619680158,
+    "worst_day_pct": -0.00206093430769979,
+    "n_trades": 165,
+    "win_rate": 0.38181818181818183,
+    "profit_factor": 0.7467781033003598,
+    "avg_trade": -1.578936151571155,
+    "costs_paid": 50.8765,
+    "breach_daily": false,
+    "breach_total": false,
+    "target_hit": false,
+    "FTMO_PASS": false
+  }
+}

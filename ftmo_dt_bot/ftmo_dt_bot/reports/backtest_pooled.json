@@ -1,0 +1,34 @@
+{
+  "EURUSD": {
+    "symbol": "EURUSD",
+    "final_equity": 99970.34768616954,
+    "total_return": -0.0002965231383046385,
+    "max_drawdown": -0.0008049464978155951,
+    "worst_day_pct": -0.0001801970924217312,
+    "n_trades": 25,
+    "win_rate": 0.44,
+    "profit_factor": 0.8073402717816505,
+    "avg_trade": -1.186092553219071,
+    "costs_paid": 40.93500000000001,
+    "breach_daily": false,
+    "breach_total": false,
+    "target_hit": false,
+    "FTMO_PASS": false
+  },
+  "US30": {
+    "symbol": "US30",
+    "final_equity": 99496.1641017771,
+    "total_return": -0.00503835898222893,
+    "max_drawdown": -0.005555393355397564,
+    "worst_day_pct": -0.0029864067870639566,
+    "n_trades": 186,
+    "win_rate": 0.34408602150537637,
+    "profit_factor": 0.594055318571994,
+    "avg_trade": -2.708795151736024,
+    "costs_paid": 64.626,
+    "breach_daily": false,
+    "breach_total": false,
+    "target_hit": false,
+    "FTMO_PASS": false
+  }
+}

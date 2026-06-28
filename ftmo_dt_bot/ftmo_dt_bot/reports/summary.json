@@ -1,0 +1,72 @@
+{
+  "EURUSD": {
+    "EURUSD": {
+      "symbol": "EURUSD",
+      "final_equity": 99494.95298605647,
+      "total_return": -0.005050470139435381,
+      "max_drawdown": -0.00554650426144343,
+      "worst_day_pct": -0.0037637433295180382,
+      "n_trades": 154,
+      "win_rate": 0.37012987012987014,
+      "profit_factor": 0.5498894307849062,
+      "avg_trade": -3.2795260645688655,
+      "costs_paid": 328.4,
+      "breach_daily": false,
+      "breach_total": false,
+      "target_hit": false,
+      "FTMO_PASS": false
+    }
+  },
+  "US30": {
+    "US30": {
+      "symbol": "US30",
+      "final_equity": 99739.4755349908,
+      "total_return": -0.0026052446500920423,
+      "max_drawdown": -0.003248285619680158,
+      "worst_day_pct": -0.00206093430769979,
+      "n_trades": 165,
+      "win_rate": 0.38181818181818183,
+      "profit_factor": 0.7467781033003598,
+      "avg_trade": -1.578936151571155,
+      "costs_paid": 50.8765,
+      "breach_daily": false,
+      "breach_total": false,
+      "target_hit": false,
+      "FTMO_PASS": false
+    }
+  },
+  "pooled": {
+    "EURUSD": {
+      "symbol": "EURUSD",
+      "final_equity": 99970.34768616954,
+      "total_return": -0.0002965231383046385,
+      "max_drawdown": -0.0008049464978155951,
+      "worst_day_pct": -0.0001801970924217312,
+      "n_trades": 25,
+      "win_rate": 0.44,
+      "profit_factor": 0.8073402717816505,
+      "avg_trade": -1.186092553219071,
+      "costs_paid": 40.93500000000001,
+      "breach_daily": false,
+      "breach_total": false,
+      "target_hit": false,
+      "FTMO_PASS": false
+    },
+    "US30": {
+      "symbol": "US30",
+      "final_equity": 99496.1641017771,
+      "total_return": -0.00503835898222893,
+      "max_drawdown": -0.005555393355397564,
+      "worst_day_pct": -0.0029864067870639566,
+      "n_trades": 186,
+      "win_rate": 0.34408602150537637,
+      "profit_factor": 0.594055318571994,
+      "avg_trade": -2.708795151736024,
+      "costs_paid": 64.626,
+      "breach_daily": false,
+      "breach_total": false,
+      "target_hit": false,
+      "FTMO_PASS": false
+    }
+  }
+}

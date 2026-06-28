@@ -1,0 +1,18 @@
+{
+  "EURUSD": {
+    "symbol": "EURUSD",
+    "final_equity": 99494.95298605647,
+    "total_return": -0.005050470139435381,
+    "max_drawdown": -0.00554650426144343,
+    "worst_day_pct": -0.0037637433295180382,
+    "n_trades": 154,
+    "win_rate": 0.37012987012987014,
+    "profit_factor": 0.5498894307849062,
+    "avg_trade": -3.2795260645688655,
+    "costs_paid": 328.4,
+    "breach_daily": false,
+    "breach_total": false,
+    "target_hit": false,
+    "FTMO_PASS": false
+  }
+}

@@ -1,0 +1,8 @@
+# core (required for training + backtest)
+pandas>=1.5
+numpy>=1.20
+# optional
+scikit-learn>=1.0   # better/faster tree; NumpyCART is the no-dep fallback
+matplotlib>=3.5     # notebook equity plots
+gdown>=4.6          # notebook: pull the 4 CSVs from Drive
+MetaTrader5>=5.0    # live bot + data export (Windows only)
