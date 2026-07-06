@@ -1,0 +1,227 @@
+[
+  {
+    "IS": 42.75286757038582,
+    "OOS": 46.78362573099415,
+    "MIN": 42.75286757038582,
+    "oos_days": 171,
+    "oos_pass": 80,
+    "oos_breach": 0,
+    "cfg": {
+      "rr": 1.3,
+      "risk_pct": 2.5,
+      "recross": false,
+      "require15": false,
+      "m1trig": true
+    }
+  },
+  {
+    "IS": 39.93743482794578,
+    "OOS": 42.10526315789474,
+    "MIN": 39.93743482794578,
+    "oos_days": 171,
+    "oos_pass": 72,
+    "oos_breach": 1,
+    "cfg": {
+      "rr": 1.5,
+      "risk_pct": 2.5,
+      "recross": false,
+      "require15": false,
+      "m1trig": true
+    }
+  },
+  {
+    "IS": 39.1395592864638,
+    "OOS": 41.76470588235294,
+    "MIN": 39.1395592864638,
+    "oos_days": 170,
+    "oos_pass": 71,
+    "oos_breach": 10,
+    "cfg": {
+      "rr": 1.5,
+      "risk_pct": 2.0,
+      "recross": false,
+      "require15": false,
+      "m1trig": true
+    }
+  },
+  {
+    "IS": 34.526315789473685,
+    "OOS": 36.68639053254438,
+    "MIN": 34.526315789473685,
+    "oos_days": 169,
+    "oos_pass": 62,
+    "oos_breach": 0,
+    "cfg": {
+      "rr": 2.0,
+      "risk_pct": 1.5,
+      "recross": false,
+      "require15": false,
+      "m1trig": true
+    }
+  },
+  {
+    "IS": 33.645833333333336,
+    "OOS": 35.67251461988304,
+    "MIN": 33.645833333333336,
+    "oos_days": 171,
+    "oos_pass": 61,
+    "oos_breach": 4,
+    "cfg": {
+      "rr": 1.0,
+      "risk_pct": 2.5,
+      "recross": false,
+      "require15": false,
+      "m1trig": true
+    }
+  },
+  {
+    "IS": 33.05439330543933,
+    "OOS": 39.411764705882355,
+    "MIN": 33.05439330543933,
+    "oos_days": 170,
+    "oos_pass": 67,
+    "oos_breach": 15,
+    "cfg": {
+      "rr": 1.3,
+      "risk_pct": 2.0,
+      "recross": false,
+      "require15": false,
+      "m1trig": true
+    }
+  },
+  {
+    "IS": 31.73277661795407,
+    "OOS": 35.67251461988304,
+    "MIN": 31.73277661795407,
+    "oos_days": 171,
+    "oos_pass": 61,
+    "oos_breach": 25,
+    "cfg": {
+      "rr": 2.0,
+      "risk_pct": 2.0,
+      "recross": false,
+      "require15": false,
+      "m1trig": true
+    }
+  },
+  {
+    "IS": 29.91347342398022,
+    "OOS": 31.690140845070424,
+    "MIN": 29.91347342398022,
+    "oos_days": 142,
+    "oos_pass": 45,
+    "oos_breach": 6,
+    "cfg": {
+      "rr": 2.0,
+      "risk_pct": 2.0,
+      "recross": false,
+      "require15": false,
+      "m1trig": false
+    }
+  },
+  {
+    "IS": 28.41328413284133,
+    "OOS": 37.5886524822695,
+    "MIN": 28.41328413284133,
+    "oos_days": 141,
+    "oos_pass": 53,
+    "oos_breach": 0,
+    "cfg": {
+      "rr": 1.3,
+      "risk_pct": 2.5,
+      "recross": false,
+      "require15": false,
+      "m1trig": false
+    }
+  },
+  {
+    "IS": 27.484662576687118,
+    "OOS": 34.50704225352113,
+    "MIN": 27.484662576687118,
+    "oos_days": 142,
+    "oos_pass": 49,
+    "oos_breach": 1,
+    "cfg": {
+      "rr": 1.5,
+      "risk_pct": 2.5,
+      "recross": false,
+      "require15": false,
+      "m1trig": false
+    }
+  },
+  {
+    "IS": 26.814268142681428,
+    "OOS": 31.914893617021278,
+    "MIN": 26.814268142681428,
+    "oos_days": 141,
+    "oos_pass": 45,
+    "oos_breach": 3,
+    "cfg": {
+      "rr": 1.3,
+      "risk_pct": 2.0,
+      "recross": false,
+      "require15": false,
+      "m1trig": false
+    }
+  },
+  {
+    "IS": 26.257668711656443,
+    "OOS": 34.50704225352113,
+    "MIN": 26.257668711656443,
+    "oos_days": 142,
+    "oos_pass": 49,
+    "oos_breach": 4,
+    "cfg": {
+      "rr": 1.5,
+      "risk_pct": 2.0,
+      "recross": false,
+      "require15": false,
+      "m1trig": false
+    }
+  },
+  {
+    "IS": 26.08158220024722,
+    "OOS": 31.690140845070424,
+    "MIN": 26.08158220024722,
+    "oos_days": 142,
+    "oos_pass": 45,
+    "oos_breach": 0,
+    "cfg": {
+      "rr": 2.0,
+      "risk_pct": 1.5,
+      "recross": false,
+      "require15": false,
+      "m1trig": false
+    }
+  },
+  {
+    "IS": 25.705329153605014,
+    "OOS": 26.31578947368421,
+    "MIN": 25.705329153605014,
+    "oos_days": 171,
+    "oos_pass": 45,
+    "oos_breach": 9,
+    "cfg": {
+      "rr": 1.0,
+      "risk_pct": 2.0,
+      "recross": false,
+      "require15": false,
+      "m1trig": true
+    }
+  },
+  {
+    "IS": 25.36997885835095,
+    "OOS": 26.62721893491124,
+    "MIN": 25.36997885835095,
+    "oos_days": 169,
+    "oos_pass": 45,
+    "oos_breach": 0,
+    "cfg": {
+      "rr": 1.3,
+      "risk_pct": 1.5,
+      "recross": false,
+      "require15": false,
+      "m1trig": true
+    }
+  }
+]

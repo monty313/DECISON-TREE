@@ -1,0 +1,13 @@
+loaded (46174, 205) | 410 days | trees=200
+  win_R=0.6  OOS winner-class precision by threshold:
+    thr 0.50: precision 24.3%  picks 25145  (tp 6120 fp 19025)
+    thr 0.60: precision 25.6%  picks 17870  (tp 4570 fp 13300)
+    thr 0.70: precision 25.7%  picks 7319  (tp 1878 fp 5441)
+    thr 0.80: precision 23.0%  picks 100  (tp 23 fp 77)
+    thr 0.90: precision  0.0%  picks 0  (tp 0 fp 0)
+  win_R=1.0  OOS winner-class precision by threshold:
+    thr 0.50: precision 23.9%  picks 25183  (tp 6029 fp 19154)
+    thr 0.60: precision 25.1%  picks 17952  (tp 4503 fp 13449)
+    thr 0.70: precision 25.2%  picks 7260  (tp 1829 fp 5431)
+    thr 0.80: precision 25.0%  picks 76  (tp 19 fp 57)
+    thr 0.90: precision  0.0%  picks 0  (tp 0 fp 0)

@@ -1,0 +1,7 @@
+reonly=True risk=1.0%: pass 50/300=16.7%  breach 18  trades 1251 (4.2/day)  ret +51%
+reonly=True risk=1.5%: pass 77/300=25.7%  breach 52  trades 1011 (3.4/day)  ret +82%
+reonly=True risk=2.0%: pass 60/300=20.0%  breach 101  trades 849 (2.8/day)  ret +43%
+reonly=False risk=1.0%: pass 62/307=20.2%  breach 24  trades 1392 (4.5/day)  ret +71%
+reonly=False risk=1.5%: pass 84/307=27.4%  breach 58  trades 1096 (3.6/day)  ret +128%
+reonly=False risk=2.0%: pass 79/307=25.7%  breach 95  trades 837 (2.7/day)  ret +182%
+DONE_CONT

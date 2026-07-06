@@ -1,0 +1,212 @@
+[
+  {
+    "IS": 70.02457002457002,
+    "OOS": 66.19718309859155,
+    "MIN": 66.19718309859155,
+    "oos_days": 142,
+    "oos_pass": 94,
+    "oos_breach": 1,
+    "cfg": {
+      "rr": 1.5,
+      "risk_pct": 2.0,
+      "recross": false,
+      "require15": false
+    }
+  },
+  {
+    "IS": 65.37867078825347,
+    "OOS": 66.37931034482759,
+    "MIN": 65.37867078825347,
+    "oos_days": 116,
+    "oos_pass": 77,
+    "oos_breach": 0,
+    "cfg": {
+      "rr": 1.5,
+      "risk_pct": 2.0,
+      "recross": false,
+      "require15": true
+    }
+  },
+  {
+    "IS": 68.22085889570552,
+    "OOS": 64.08450704225352,
+    "MIN": 64.08450704225352,
+    "oos_days": 142,
+    "oos_pass": 91,
+    "oos_breach": 0,
+    "cfg": {
+      "rr": 1.5,
+      "risk_pct": 2.0,
+      "recross": true,
+      "require15": false
+    }
+  },
+  {
+    "IS": 71.25307125307125,
+    "OOS": 60.563380281690144,
+    "MIN": 60.563380281690144,
+    "oos_days": 142,
+    "oos_pass": 86,
+    "oos_breach": 0,
+    "cfg": {
+      "rr": 1.0,
+      "risk_pct": 2.0,
+      "recross": false,
+      "require15": false
+    }
+  },
+  {
+    "IS": 64.29447852760737,
+    "OOS": 58.45070422535211,
+    "MIN": 58.45070422535211,
+    "oos_days": 142,
+    "oos_pass": 83,
+    "oos_breach": 0,
+    "cfg": {
+      "rr": 2.0,
+      "risk_pct": 2.0,
+      "recross": true,
+      "require15": false
+    }
+  },
+  {
+    "IS": 67.11656441717791,
+    "OOS": 56.33802816901409,
+    "MIN": 56.33802816901409,
+    "oos_days": 142,
+    "oos_pass": 80,
+    "oos_breach": 0,
+    "cfg": {
+      "rr": 1.0,
+      "risk_pct": 2.0,
+      "recross": true,
+      "require15": false
+    }
+  },
+  {
+    "IS": 56.580565805658054,
+    "OOS": 56.33802816901409,
+    "MIN": 56.33802816901409,
+    "oos_days": 142,
+    "oos_pass": 80,
+    "oos_breach": 0,
+    "cfg": {
+      "rr": 2.0,
+      "risk_pct": 1.5,
+      "recross": false,
+      "require15": false
+    }
+  },
+  {
+    "IS": 56.580565805658054,
+    "OOS": 56.33802816901409,
+    "MIN": 56.33802816901409,
+    "oos_days": 142,
+    "oos_pass": 80,
+    "oos_breach": 1,
+    "cfg": {
+      "rr": 2.0,
+      "risk_pct": 2.0,
+      "recross": false,
+      "require15": false
+    }
+  },
+  {
+    "IS": 58.887171561051005,
+    "OOS": 56.03448275862069,
+    "MIN": 56.03448275862069,
+    "oos_days": 116,
+    "oos_pass": 65,
+    "oos_breach": 0,
+    "cfg": {
+      "rr": 1.5,
+      "risk_pct": 2.0,
+      "recross": true,
+      "require15": true
+    }
+  },
+  {
+    "IS": 61.34969325153374,
+    "OOS": 55.63380281690141,
+    "MIN": 55.63380281690141,
+    "oos_days": 142,
+    "oos_pass": 79,
+    "oos_breach": 0,
+    "cfg": {
+      "rr": 2.0,
+      "risk_pct": 1.5,
+      "recross": true,
+      "require15": false
+    }
+  },
+  {
+    "IS": 67.44471744471744,
+    "OOS": 54.225352112676056,
+    "MIN": 54.225352112676056,
+    "oos_days": 142,
+    "oos_pass": 77,
+    "oos_breach": 0,
+    "cfg": {
+      "rr": 1.5,
+      "risk_pct": 1.5,
+      "recross": false,
+      "require15": false
+    }
+  },
+  {
+    "IS": 53.63214837712519,
+    "OOS": 54.310344827586206,
+    "MIN": 53.63214837712519,
+    "oos_days": 116,
+    "oos_pass": 63,
+    "oos_breach": 0,
+    "cfg": {
+      "rr": 2.0,
+      "risk_pct": 1.5,
+      "recross": false,
+      "require15": true
+    }
+  },
+  {
+    "IS": 53.63214837712519,
+    "OOS": 54.310344827586206,
+    "MIN": 53.63214837712519,
+    "oos_days": 116,
+    "oos_pass": 63,
+    "oos_breach": 0,
+    "cfg": {
+      "rr": 2.0,
+      "risk_pct": 2.0,
+      "recross": false,
+      "require15": true
+    }
+  },
+  {
+    "IS": 53.32302936630603,
+    "OOS": 51.724137931034484,
+    "MIN": 51.724137931034484,
+    "oos_days": 116,
+    "oos_pass": 60,
+    "oos_breach": 0,
+    "cfg": {
+      "rr": 2.0,
+      "risk_pct": 2.0,
+      "recross": true,
+      "require15": true
+    }
+  },
+  {
+    "IS": 58.65030674846626,
+    "OOS": 50.70422535211268,
+    "MIN": 50.70422535211268,
+    "oos_days": 142,
+    "oos_pass": 72,
+    "oos_breach": 0,
+    "cfg": {
+      "rr": 2.5,
+      "risk_pct": 1.5,
+      "recross": true,
+      "require15": false
+    }
+  }
+]

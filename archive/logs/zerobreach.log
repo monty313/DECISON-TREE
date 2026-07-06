@@ -1,0 +1,8 @@
+max-loss cap + tighter DD to zero breaches:
+<stdin>:49: DeprecationWarning: Bitwise inversion '~' on bool is deprecated and will be removed in Python 3.16. This returns the bitwise inversion of the underlying int object and is usually not what you expect from negating a bool. Use the 'not' operator for boolean negation or ~int(x) if you really want the bitwise inversion of the underlying int.
+  risk1.5% ddh3.5 maxloss0: breach-days 20  daily-pass 19.0%  chal30+8 15.8%  chal30+6 25.9%
+  risk1.5% ddh2.5 maxloss2: breach-days 13  daily-pass 11.7%  chal30+8 7.2%  chal30+6 12.9%
+  risk1.5% ddh2.0 maxloss2: breach-days 13  daily-pass 11.7%  chal30+8 7.2%  chal30+6 12.9%
+  risk1.0% ddh2.0 maxloss2: breach-days 8  daily-pass 8.7%  chal30+8 10.8%  chal30+6 18.0%
+  risk1.5% ddh3.0 maxloss3: breach-days 18  daily-pass 14.7%  chal30+8 10.1%  chal30+6 12.2%
+DONE_ZB

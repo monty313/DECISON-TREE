@@ -1,0 +1,28 @@
+GATE PARAM sweep (win-rate & EV per trade):
+  htfCCI50 sh2 syn14/40/100: n1773 win38% EV+0.066R >=2.5R3%
+  htfCCI50 sh2 syn14/100/300: n1770 win38% EV+0.061R >=2.5R3%
+  htfCCI50 sh2 syn10/30/100: n1755 win37% EV+0.050R >=2.5R3%
+  htfCCI50 sh2 syn14/100/900: n1710 win38% EV+0.067R >=2.5R3%
+  htfCCI50 sh4 syn14/40/100: n1626 win37% EV+0.044R >=2.5R3%
+  htfCCI50 sh4 syn14/100/300: n1618 win37% EV+0.039R >=2.5R3%
+  htfCCI50 sh4 syn10/30/100: n1607 win36% EV+0.032R >=2.5R3%
+  htfCCI50 sh4 syn14/100/900: n1584 win37% EV+0.042R >=2.5R3%
+  htfCCI100 sh2 syn14/40/100: n1624 win38% EV+0.067R >=2.5R3%
+  htfCCI100 sh2 syn14/100/300: n1603 win37% EV+0.061R >=2.5R3%
+  htfCCI100 sh2 syn10/30/100: n1612 win37% EV+0.049R >=2.5R3%
+  htfCCI100 sh2 syn14/100/900: n1614 win38% EV+0.069R >=2.5R3%
+  htfCCI100 sh4 syn14/40/100: n1527 win37% EV+0.035R >=2.5R3%
+  htfCCI100 sh4 syn14/100/300: n1507 win37% EV+0.032R >=2.5R3%
+  htfCCI100 sh4 syn10/30/100: n1507 win36% EV+0.025R >=2.5R3%
+  htfCCI100 sh4 syn14/100/900: n1516 win37% EV+0.036R >=2.5R3%
+  htfCCI140 sh2 syn14/40/100: n1572 win37% EV+0.053R >=2.5R3%
+  htfCCI140 sh2 syn14/100/300: n1534 win36% EV+0.042R >=2.5R3%
+  htfCCI140 sh2 syn10/30/100: n1560 win36% EV+0.035R >=2.5R3%
+  htfCCI140 sh2 syn14/100/900: n1534 win37% EV+0.054R >=2.5R3%
+  htfCCI140 sh4 syn14/40/100: n1484 win37% EV+0.032R >=2.5R3%
+  htfCCI140 sh4 syn14/100/300: n1447 win37% EV+0.023R >=2.5R3%
+  htfCCI140 sh4 syn10/30/100: n1463 win36% EV+0.021R >=2.5R3%
+  htfCCI140 sh4 syn14/100/900: n1456 win37% EV+0.028R >=2.5R3%
+
+BEST EV: (np.float64(0.06875388521498317), 'htfCCI100 sh2 syn14/100/900', np.float64(37.79429987608427))
+DONE_GATE

@@ -1,0 +1,4 @@
+loaded (46174, 205) | 410 trading days | trees=120
+=== 24 configs, ranked by MIN(IS,OOS) ===
+[  1/24] IS   2.9  OOS   2.9  MIN   2.9  (oos 6/209d, tr 2186, brch 2)  76s | BEST MIN   2.9 {'conf_min': 0.55, 'tp_R': 1.0, 'risk_pct': 0.5, 'max_trades_day': 0, 'label_min_R': 0.5, 'min_samples_leaf': 250, 'conf_margin': 0.1}
+[  2/24] IS   0.6  OOS   1.4  MIN   0.6  (oos 3/209d, tr 624, brch 0)  77s | BEST MIN   2.9 {'conf_min': 0.55, 'tp_R': 1.0, 'risk_pct': 0.5, 'max_trades_day': 0, 'label_min_R': 0.5, 'min_samples_leaf': 250, 'conf_margin': 0.1}

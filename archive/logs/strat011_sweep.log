@@ -1,0 +1,63 @@
+building STRAT-011 features...
+  120111 M5 bars
+=== STRAT-011 sweep: 48 configs, rank by MIN(IS,OOS) ===
+[ 1/48] IS  39.9 OOS  31.0 MIN  31.0 (oos 44/142d brch 0) 26s | BEST  31.0 {'rr': 1.0, 'risk_pct': 1.0, 'recross': False, 'require15': False}
+[ 2/48] IS  23.8 OOS  12.9 MIN  12.9 (oos 15/116d brch 0) 26s | BEST  31.0 {'rr': 1.0, 'risk_pct': 1.0, 'recross': False, 'require15': False}
+[ 3/48] IS  38.0 OOS  26.8 MIN  26.8 (oos 38/142d brch 0) 42s | BEST  31.0 {'rr': 1.0, 'risk_pct': 1.0, 'recross': False, 'require15': False}
+[ 4/48] IS  22.6 OOS  12.9 MIN  12.9 (oos 15/116d brch 0) 28s | BEST  31.0 {'rr': 1.0, 'risk_pct': 1.0, 'recross': False, 'require15': False}
+[ 5/48] IS  59.2 OOS  43.0 MIN  43.0 (oos 61/142d brch 0) 35s | BEST  43.0 {'rr': 1.0, 'risk_pct': 1.5, 'recross': False, 'require15': False}
+[ 6/48] IS  49.5 OOS  31.0 MIN  31.0 (oos 36/116d brch 0) 25s | BEST  43.0 {'rr': 1.0, 'risk_pct': 1.5, 'recross': False, 'require15': False}
+[ 7/48] IS  55.5 OOS  38.7 MIN  38.7 (oos 55/142d brch 0) 28s | BEST  43.0 {'rr': 1.0, 'risk_pct': 1.5, 'recross': False, 'require15': False}
+[ 8/48] IS  45.9 OOS  28.4 MIN  28.4 (oos 33/116d brch 0) 47s | BEST  43.0 {'rr': 1.0, 'risk_pct': 1.5, 'recross': False, 'require15': False}
+[ 9/48] IS  71.3 OOS  60.6 MIN  60.6 (oos 86/142d brch 0) 31s | BEST  60.6 {'rr': 1.0, 'risk_pct': 2.0, 'recross': False, 'require15': False}
+[10/48] IS  63.8 OOS  44.8 MIN  44.8 (oos 52/116d brch 0) 32s | BEST  60.6 {'rr': 1.0, 'risk_pct': 2.0, 'recross': False, 'require15': False}
+[11/48] IS  67.1 OOS  56.3 MIN  56.3 (oos 80/142d brch 0) 31s | BEST  60.6 {'rr': 1.0, 'risk_pct': 2.0, 'recross': False, 'require15': False}
+[12/48] IS  58.1 OOS  44.0 MIN  44.0 (oos 51/116d brch 0) 34s | BEST  60.6 {'rr': 1.0, 'risk_pct': 2.0, 'recross': False, 'require15': False}
+[13/48] IS  50.7 OOS  31.0 MIN  31.0 (oos 44/142d brch 0) 29s | BEST  60.6 {'rr': 1.0, 'risk_pct': 2.0, 'recross': False, 'require15': False}
+[14/48] IS  34.8 OOS  22.4 MIN  22.4 (oos 26/116d brch 0) 29s | BEST  60.6 {'rr': 1.0, 'risk_pct': 2.0, 'recross': False, 'require15': False}
+[15/48] IS  44.8 OOS  30.3 MIN  30.3 (oos 43/142d brch 0) 17s | BEST  60.6 {'rr': 1.0, 'risk_pct': 2.0, 'recross': False, 'require15': False}
+[16/48] IS  30.3 OOS  19.0 MIN  19.0 (oos 22/116d brch 0) 16s | BEST  60.6 {'rr': 1.0, 'risk_pct': 2.0, 'recross': False, 'require15': False}
+[17/48] IS  67.4 OOS  54.2 MIN  54.2 (oos 77/142d brch 0) 15s | BEST  60.6 {'rr': 1.0, 'risk_pct': 2.0, 'recross': False, 'require15': False}
+[18/48] IS  58.7 OOS  45.7 MIN  45.7 (oos 53/116d brch 0) 15s | BEST  60.6 {'rr': 1.0, 'risk_pct': 2.0, 'recross': False, 'require15': False}
+[19/48] IS  62.1 OOS  49.3 MIN  49.3 (oos 70/142d brch 0) 16s | BEST  60.6 {'rr': 1.0, 'risk_pct': 2.0, 'recross': False, 'require15': False}
+[20/48] IS  50.9 OOS  37.9 MIN  37.9 (oos 44/116d brch 0) 16s | BEST  60.6 {'rr': 1.0, 'risk_pct': 2.0, 'recross': False, 'require15': False}
+[21/48] IS  70.0 OOS  66.2 MIN  66.2 (oos 94/142d brch 1) 15s | BEST  66.2 {'rr': 1.5, 'risk_pct': 2.0, 'recross': False, 'require15': False}
+[22/48] IS  65.4 OOS  66.4 MIN  65.4 (oos 77/116d brch 0) 16s | BEST  66.2 {'rr': 1.5, 'risk_pct': 2.0, 'recross': False, 'require15': False}
+[23/48] IS  68.2 OOS  64.1 MIN  64.1 (oos 91/142d brch 0) 21s | BEST  66.2 {'rr': 1.5, 'risk_pct': 2.0, 'recross': False, 'require15': False}
+[24/48] IS  58.9 OOS  56.0 MIN  56.0 (oos 65/116d brch 0) 16s | BEST  66.2 {'rr': 1.5, 'risk_pct': 2.0, 'recross': False, 'require15': False}
+[25/48] IS  48.8 OOS  31.0 MIN  31.0 (oos 44/142d brch 0) 17s | BEST  66.2 {'rr': 1.5, 'risk_pct': 2.0, 'recross': False, 'require15': False}
+[26/48] IS  40.6 OOS  16.4 MIN  16.4 (oos 19/116d brch 0) 15s | BEST  66.2 {'rr': 1.5, 'risk_pct': 2.0, 'recross': False, 'require15': False}
+[27/48] IS  48.0 OOS  33.8 MIN  33.8 (oos 48/142d brch 0) 16s | BEST  66.2 {'rr': 1.5, 'risk_pct': 2.0, 'recross': False, 'require15': False}
+[28/48] IS  38.0 OOS  15.5 MIN  15.5 (oos 18/116d brch 0) 16s | BEST  66.2 {'rr': 1.5, 'risk_pct': 2.0, 'recross': False, 'require15': False}
+[29/48] IS  56.6 OOS  56.3 MIN  56.3 (oos 80/142d brch 0) 16s | BEST  66.2 {'rr': 1.5, 'risk_pct': 2.0, 'recross': False, 'require15': False}
+[30/48] IS  53.6 OOS  54.3 MIN  53.6 (oos 63/116d brch 0) 16s | BEST  66.2 {'rr': 1.5, 'risk_pct': 2.0, 'recross': False, 'require15': False}
+[31/48] IS  61.3 OOS  55.6 MIN  55.6 (oos 79/142d brch 0) 16s | BEST  66.2 {'rr': 1.5, 'risk_pct': 2.0, 'recross': False, 'require15': False}
+[32/48] IS  50.1 OOS  49.1 MIN  49.1 (oos 57/116d brch 0) 15s | BEST  66.2 {'rr': 1.5, 'risk_pct': 2.0, 'recross': False, 'require15': False}
+[33/48] IS  56.6 OOS  56.3 MIN  56.3 (oos 80/142d brch 1) 16s | BEST  66.2 {'rr': 1.5, 'risk_pct': 2.0, 'recross': False, 'require15': False}
+[34/48] IS  53.6 OOS  54.3 MIN  53.6 (oos 63/116d brch 0) 16s | BEST  66.2 {'rr': 1.5, 'risk_pct': 2.0, 'recross': False, 'require15': False}
+[35/48] IS  64.3 OOS  58.5 MIN  58.5 (oos 83/142d brch 0) 16s | BEST  66.2 {'rr': 1.5, 'risk_pct': 2.0, 'recross': False, 'require15': False}
+[36/48] IS  53.3 OOS  51.7 MIN  51.7 (oos 60/116d brch 0) 16s | BEST  66.2 {'rr': 1.5, 'risk_pct': 2.0, 'recross': False, 'require15': False}
+[37/48] IS  50.8 OOS  47.2 MIN  47.2 (oos 67/142d brch 0) 15s | BEST  66.2 {'rr': 1.5, 'risk_pct': 2.0, 'recross': False, 'require15': False}
+[38/48] IS  47.0 OOS  48.7 MIN  47.0 (oos 56/115d brch 0) 16s | BEST  66.2 {'rr': 1.5, 'risk_pct': 2.0, 'recross': False, 'require15': False}
+[39/48] IS  49.9 OOS  39.4 MIN  39.4 (oos 56/142d brch 0) 17s | BEST  66.2 {'rr': 1.5, 'risk_pct': 2.0, 'recross': False, 'require15': False}
+[40/48] IS  41.0 OOS  38.8 MIN  38.8 (oos 45/116d brch 0) 17s | BEST  66.2 {'rr': 1.5, 'risk_pct': 2.0, 'recross': False, 'require15': False}
+[41/48] IS  52.4 OOS  50.0 MIN  50.0 (oos 71/142d brch 0) 15s | BEST  66.2 {'rr': 1.5, 'risk_pct': 2.0, 'recross': False, 'require15': False}
+[42/48] IS  47.7 OOS  50.4 MIN  47.7 (oos 58/115d brch 0) 15s | BEST  66.2 {'rr': 1.5, 'risk_pct': 2.0, 'recross': False, 'require15': False}
+[43/48] IS  58.7 OOS  50.7 MIN  50.7 (oos 72/142d brch 0) 16s | BEST  66.2 {'rr': 1.5, 'risk_pct': 2.0, 'recross': False, 'require15': False}
+[44/48] IS  45.6 OOS  44.8 MIN  44.8 (oos 52/116d brch 0) 16s | BEST  66.2 {'rr': 1.5, 'risk_pct': 2.0, 'recross': False, 'require15': False}
+[45/48] IS   0.4 OOS   0.0 MIN   0.0 (oos 0/142d brch 73) 15s | BEST  66.2 {'rr': 1.5, 'risk_pct': 2.0, 'recross': False, 'require15': False}
+[46/48] IS   0.0 OOS   0.0 MIN   0.0 (oos 0/115d brch 58) 16s | BEST  66.2 {'rr': 1.5, 'risk_pct': 2.0, 'recross': False, 'require15': False}
+[47/48] IS  23.4 OOS  10.6 MIN  10.6 (oos 15/142d brch 57) 17s | BEST  66.2 {'rr': 1.5, 'risk_pct': 2.0, 'recross': False, 'require15': False}
+[48/48] IS  10.8 OOS   5.2 MIN   5.2 (oos 6/116d brch 47) 16s | BEST  66.2 {'rr': 1.5, 'risk_pct': 2.0, 'recross': False, 'require15': False}
+
+=== TOP 8 BY MIN ===
+  MIN  66.2 IS  70.0 OOS  66.2 oosD 142 brch 1 {'rr': 1.5, 'risk_pct': 2.0, 'recross': False, 'require15': False}
+  MIN  65.4 IS  65.4 OOS  66.4 oosD 116 brch 0 {'rr': 1.5, 'risk_pct': 2.0, 'recross': False, 'require15': True}
+  MIN  64.1 IS  68.2 OOS  64.1 oosD 142 brch 0 {'rr': 1.5, 'risk_pct': 2.0, 'recross': True, 'require15': False}
+  MIN  60.6 IS  71.3 OOS  60.6 oosD 142 brch 0 {'rr': 1.0, 'risk_pct': 2.0, 'recross': False, 'require15': False}
+  MIN  58.5 IS  64.3 OOS  58.5 oosD 142 brch 0 {'rr': 2.0, 'risk_pct': 2.0, 'recross': True, 'require15': False}
+  MIN  56.3 IS  67.1 OOS  56.3 oosD 142 brch 0 {'rr': 1.0, 'risk_pct': 2.0, 'recross': True, 'require15': False}
+  MIN  56.3 IS  56.6 OOS  56.3 oosD 142 brch 0 {'rr': 2.0, 'risk_pct': 1.5, 'recross': False, 'require15': False}
+  MIN  56.3 IS  56.6 OOS  56.3 oosD 142 brch 1 {'rr': 2.0, 'risk_pct': 2.0, 'recross': False, 'require15': False}
+
+DONE=NO best MIN 66.2%

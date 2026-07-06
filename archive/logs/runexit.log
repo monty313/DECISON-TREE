@@ -1,0 +1,4 @@
+exit 'mid': trades 1612 win 37% EV +0.033R avgWin +0.95R avgLoss -0.51R  maxWin 19.6R  >=2.5R:2.6%
+exit 'slowgrav': trades 1612 win 37% EV +0.033R avgWin +0.95R avgLoss -0.51R  maxWin 19.6R  >=2.5R:2.6%
+exit 'law0only': trades 1612 win 37% EV +0.033R avgWin +0.95R avgLoss -0.51R  maxWin 19.6R  >=2.5R:2.6%
+DONE_RUNEXIT

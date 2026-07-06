@@ -1,0 +1,122 @@
+[
+  {
+    "IS": 73.95577395577395,
+    "OOS": 72.53521126760563,
+    "MIN": 72.53521126760563,
+    "oos_days": 142,
+    "oos_pass": 103,
+    "oos_breach": 0,
+    "cfg": {
+      "rr": 1.3,
+      "risk_pct": 2.0,
+      "recross": false,
+      "require15": false,
+      "dd_halt_pct": 3.5
+    }
+  },
+  {
+    "IS": 74.2014742014742,
+    "OOS": 72.53521126760563,
+    "MIN": 72.53521126760563,
+    "oos_days": 142,
+    "oos_pass": 103,
+    "oos_breach": 0,
+    "cfg": {
+      "rr": 1.3,
+      "risk_pct": 2.0,
+      "recross": false,
+      "require15": false,
+      "dd_halt_pct": 3.8
+    }
+  },
+  {
+    "IS": 73.09582309582309,
+    "OOS": 72.53521126760563,
+    "MIN": 72.53521126760563,
+    "oos_days": 142,
+    "oos_pass": 103,
+    "oos_breach": 1,
+    "cfg": {
+      "rr": 1.3,
+      "risk_pct": 2.5,
+      "recross": false,
+      "require15": false,
+      "dd_halt_pct": 3.8
+    }
+  },
+  {
+    "IS": 71.74447174447174,
+    "OOS": 72.53521126760563,
+    "MIN": 71.74447174447174,
+    "oos_days": 142,
+    "oos_pass": 103,
+    "oos_breach": 0,
+    "cfg": {
+      "rr": 1.3,
+      "risk_pct": 2.5,
+      "recross": false,
+      "require15": false,
+      "dd_halt_pct": 3.5
+    }
+  },
+  {
+    "IS": 71.74447174447174,
+    "OOS": 72.53521126760563,
+    "MIN": 71.74447174447174,
+    "oos_days": 142,
+    "oos_pass": 103,
+    "oos_breach": 1,
+    "cfg": {
+      "rr": 1.3,
+      "risk_pct": 3.0,
+      "recross": false,
+      "require15": false,
+      "dd_halt_pct": 3.5
+    }
+  },
+  {
+    "IS": 71.74447174447174,
+    "OOS": 72.53521126760563,
+    "MIN": 71.74447174447174,
+    "oos_days": 142,
+    "oos_pass": 103,
+    "oos_breach": 1,
+    "cfg": {
+      "rr": 1.3,
+      "risk_pct": 3.0,
+      "recross": false,
+      "require15": false,
+      "dd_halt_pct": 3.8
+    }
+  },
+  {
+    "IS": 70.3931203931204,
+    "OOS": 66.90140845070422,
+    "MIN": 66.90140845070422,
+    "oos_days": 142,
+    "oos_pass": 95,
+    "oos_breach": 1,
+    "cfg": {
+      "rr": 1.5,
+      "risk_pct": 2.0,
+      "recross": false,
+      "require15": false,
+      "dd_halt_pct": 3.8
+    }
+  },
+  {
+    "IS": 70.02457002457002,
+    "OOS": 66.19718309859155,
+    "MIN": 66.19718309859155,
+    "oos_days": 142,
+    "oos_pass": 94,
+    "oos_breach": 1,
+    "cfg": {
+      "rr": 1.5,
+      "risk_pct": 2.0,
+      "recross": false,
+      "require15": false,
+      "dd_halt_pct": 3.5
+    }
+  }
+]

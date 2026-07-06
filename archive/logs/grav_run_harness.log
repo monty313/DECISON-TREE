@@ -1,0 +1,11 @@
+H1-GRAVITY exit + hard ATR stop, in FTMO harness (whole slice):
+  risk1.0% ddhalt2.5%: pass 10/289=3.5%  breach 36  trades 559 (1.9/d)  ret -55%
+  risk1.0% ddhalt3.0%: pass 8/286=2.8%  breach 37  trades 591 (2.1/d)  ret -50%
+  risk1.0% ddhalt3.5%: pass 11/284=3.9%  breach 44  trades 600 (2.1/d)  ret -47%
+  risk1.5% ddhalt2.5%: pass 10/291=3.4%  breach 42  trades 468 (1.6/d)  ret -57%
+  risk1.5% ddhalt3.0%: pass 12/291=4.1%  breach 82  trades 515 (1.8/d)  ret -59%
+  risk1.5% ddhalt3.5%: pass 8/289=2.8%  breach 123  trades 559 (1.9/d)  ret -74%
+  risk2.0% ddhalt2.5%: pass 10/291=3.4%  breach 78  trades 468 (1.6/d)  ret -72%
+  risk2.0% ddhalt3.0%: pass 10/291=3.4%  breach 78  trades 468 (1.6/d)  ret -72%
+  risk2.0% ddhalt3.5%: pass 10/291=3.4%  breach 78  trades 468 (1.6/d)  ret -72%
+DONE_GRH

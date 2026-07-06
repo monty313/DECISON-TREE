@@ -1,0 +1,9 @@
+entries: XUP=7521 XDN=7525 under license L=6786 S=7096
+STRAT-011 exact (fresh M5 CCI14 event, 1ATR stop / RR target, fast-recross exit, adaptive risk):
+  RR1.5 recrossExitTrue: pass 145/256=56.6%  breach 0  trades 527 (2.1/d)  ret +755%
+  RR1.5 recrossExitFalse: pass 160/255=62.7%  breach 0  trades 360 (1.4/d)  ret +819%
+  RR2.0 recrossExitTrue: pass 162/256=63.3%  breach 0  trades 527 (2.1/d)  ret +1049%
+  RR2.0 recrossExitFalse: pass 154/254=60.6%  breach 0  trades 366 (1.4/d)  ret +842%
+  RR3.0 recrossExitTrue: pass 149/256=58.2%  breach 0  trades 543 (2.1/d)  ret +1313%
+  RR3.0 recrossExitFalse: pass 153/249=61.4%  breach 0  trades 344 (1.4/d)  ret +1413%
+DONE_S011

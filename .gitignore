@@ -1,0 +1,13 @@
+# Market data (126MB M1 CSV exceeds GitHub's 100MB limit; user keeps it locally)
+US30_M1_*.csv
+_smoke.csv
+
+# Regenerable feature caches / models (rebuild: python s11.py --csv <CSV> --cache s11_full.joblib --build)
+*.joblib
+*.pkl
+
+# Python bytecode
+__pycache__/
+
+# Windows shortcuts
+*.lnk

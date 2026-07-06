@@ -1,0 +1,13 @@
+FULL non-overlap daily coin-flip: 1471 days, win 5.4%, mean R -3.569
+phase-pass sweep (30-day, +8% target, 10% maxDD, full 6yr):
+  risk 1.0% target +8.0%: phase-pass   0.0%  (481 windows)
+  risk 1.0% target +10.0%: phase-pass   0.0%  (481 windows)
+  risk 1.5% target +8.0%: phase-pass   0.0%  (481 windows)
+  risk 1.5% target +10.0%: phase-pass   0.0%  (481 windows)
+  risk 2.0% target +8.0%: phase-pass   0.0%  (481 windows)
+  risk 2.0% target +10.0%: phase-pass   0.0%  (481 windows)
+  risk 2.5% target +8.0%: phase-pass   0.0%  (481 windows)
+  risk 2.5% target +10.0%: phase-pass   0.0%  (481 windows)
+  risk 3.0% target +8.0%: phase-pass   0.0%  (481 windows)
+  risk 3.0% target +10.0%: phase-pass   0.0%  (481 windows)
+DONE_PHASE

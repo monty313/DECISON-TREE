@@ -1,0 +1,265 @@
+<title>US30 · 90% Day-Pass — Final Verdict</title>
+<style>
+  :root {
+    --bg: #fafaf8; --card: #ffffff; --ink: #22262b; --ink-2: #5b6470; --ink-3: #8b93a0;
+    --line: #e3e5e2; --accent: #2a78d6; --accent-ink: #1c5cab;
+    --crit: #b3382f; --crit-bg: #f9e9e7; --ok: #1e7b45; --ok-bg: #e6f3ea;
+    --s1: #2a78d6; --s2: #1baf7a; --s3: #e34948; --grid: #ececea;
+    --mono: "Cascadia Code", Consolas, "SF Mono", Menlo, monospace;
+    --sans: "Segoe UI", system-ui, -apple-system, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) { :root {
+    --bg: #16181c; --card: #1d2025; --ink: #e7e9ec; --ink-2: #a6adb8; --ink-3: #7d8590;
+    --line: #2c3038; --accent: #3987e5; --accent-ink: #86b6ef;
+    --crit: #e66767; --crit-bg: #3a2422; --ok: #4cbf7a; --ok-bg: #1e3226;
+    --s1: #3987e5; --s2: #199e70; --s3: #e66767; --grid: #262a31;
+  } }
+  :root[data-theme="light"] {
+    --bg: #fafaf8; --card: #ffffff; --ink: #22262b; --ink-2: #5b6470; --ink-3: #8b93a0;
+    --line: #e3e5e2; --accent: #2a78d6; --accent-ink: #1c5cab;
+    --crit: #b3382f; --crit-bg: #f9e9e7; --ok: #1e7b45; --ok-bg: #e6f3ea;
+    --s1: #2a78d6; --s2: #1baf7a; --s3: #e34948; --grid: #ececea;
+  }
+  :root[data-theme="dark"] {
+    --bg: #16181c; --card: #1d2025; --ink: #e7e9ec; --ink-2: #a6adb8; --ink-3: #7d8590;
+    --line: #2c3038; --accent: #3987e5; --accent-ink: #86b6ef;
+    --crit: #e66767; --crit-bg: #3a2422; --ok: #4cbf7a; --ok-bg: #1e3226;
+    --s1: #3987e5; --s2: #199e70; --s3: #e66767; --grid: #262a31;
+  }
+  * { box-sizing: border-box; }
+  body { background: var(--bg); color: var(--ink); font: 15px/1.6 var(--sans); margin: 0; }
+  .wrap { max-width: 900px; margin: 0 auto; padding: 40px 24px 80px; }
+  header { border-bottom: 2px solid var(--ink); padding-bottom: 18px; margin-bottom: 28px; }
+  .eyebrow { font: 600 11px/1 var(--mono); letter-spacing: .14em; text-transform: uppercase; color: var(--ink-2); margin-bottom: 10px; display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+  h1 { font-size: 27px; line-height: 1.25; margin: 0 0 6px; letter-spacing: -.01em; text-wrap: balance; }
+  .sub { color: var(--ink-2); max-width: 65ch; margin: 0; }
+  .chip { display: inline-block; font: 700 10.5px/1 var(--mono); letter-spacing: .1em; padding: 5px 9px; border-radius: 3px; }
+  .chip.crit { background: var(--crit-bg); color: var(--crit); }
+  .chip.ok { background: var(--ok-bg); color: var(--ok); }
+  h2 { font-size: 17px; margin: 40px 0 4px; letter-spacing: -.005em; }
+  h2 .n { font: 600 11px/1 var(--mono); color: var(--ink-3); margin-right: 8px; }
+  .lede { color: var(--ink-2); margin: 0 0 16px; max-width: 70ch; }
+  p { max-width: 70ch; }
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin: 24px 0 4px; }
+  .kpi { background: var(--card); border: 1px solid var(--line); border-radius: 6px; padding: 13px 14px 11px; }
+  .kpi .v { font: 600 24px/1.15 var(--sans); font-variant-numeric: tabular-nums; letter-spacing: -.01em; }
+  .kpi .v.crit { color: var(--crit); } .kpi .v.ok { color: var(--ok); } .kpi .v.acc { color: var(--accent-ink); }
+  .kpi .l { font-size: 12px; color: var(--ink-2); margin-top: 4px; line-height: 1.35; }
+  table { border-collapse: collapse; width: 100%; font-size: 13.5px; font-variant-numeric: tabular-nums; }
+  .tblwrap { overflow-x: auto; background: var(--card); border: 1px solid var(--line); border-radius: 6px; }
+  th { text-align: left; font: 600 11px/1.3 var(--mono); letter-spacing: .06em; text-transform: uppercase; color: var(--ink-2); padding: 10px 12px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+  td { padding: 9px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  tr:last-child td { border-bottom: 0; }
+  td.num { text-align: right; white-space: nowrap; font-family: var(--mono); font-size: 12.5px; }
+  .neg { color: var(--crit); } .pos { color: var(--ok); }
+  .fig { background: var(--card); border: 1px solid var(--line); border-radius: 6px; padding: 16px 16px 8px; margin: 16px 0; }
+  .fig h3 { font-size: 14px; margin: 0 0 2px; }
+  .fig .cap { font-size: 12.5px; color: var(--ink-2); margin: 0 0 8px; max-width: 75ch; }
+  .legend { display: flex; gap: 16px; font-size: 12px; color: var(--ink-2); margin: 4px 0 2px; flex-wrap: wrap; }
+  .legend span { display: inline-flex; align-items: center; gap: 6px; }
+  .sw { width: 14px; height: 3px; border-radius: 2px; display: inline-block; }
+  svg { display: block; width: 100%; height: auto; }
+  .tip { position: absolute; pointer-events: none; background: var(--ink); color: var(--bg); font: 500 11.5px/1.5 var(--mono); padding: 6px 9px; border-radius: 4px; white-space: nowrap; transform: translate(-50%, -130%); opacity: 0; transition: opacity .08s; z-index: 5; }
+  .chartbox { position: relative; }
+  details { margin: 10px 0 0; font-size: 13px; }
+  summary { cursor: pointer; color: var(--ink-2); font-size: 12.5px; }
+  summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .note { border-left: 3px solid var(--accent); padding: 2px 0 2px 14px; color: var(--ink-2); font-size: 13.5px; max-width: 70ch; }
+  .verdict { background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--crit); border-radius: 6px; padding: 18px 20px; margin: 18px 0; }
+  .verdict p { margin: 8px 0; }
+  code, .m { font-family: var(--mono); font-size: .92em; }
+  ul { padding-left: 20px; max-width: 70ch; } li { margin: 4px 0; }
+  a { color: var(--accent-ink); }
+  @media (prefers-reduced-motion: reduce) { .tip { transition: none; } }
+</style>
+
+<div class="wrap">
+<header>
+  <div class="eyebrow">US30 · FTMO DAY-PASS MISSION <span class="chip crit">VERDICT: CEILING PROVEN</span> <span class="chip ok">DD-SAFETY INTACT</span></div>
+  <h1>90% day-pass is unreachable on US30 M1 — and this time the proof survives an honest harness</h1>
+  <p class="sub">Autonomous session, 2026-07-06 (overnight #2). The prior session's climb to 60.6% MIN was traced to four scoring defects. After fixing all four, the gravity/STRAT-011 family was re-swept (~200 configs), a requirement curve was computed on the real trigger stream, and the target was shown to be out of reach by ~3× on win rate and ~2× on day coverage — from every direction at once.</p>
+</header>
+
+<div class="kpis">
+  <div class="kpi"><div class="v">90%</div><div class="l">day-pass required on MIN(IS,OOS) — the Definition of Done</div></div>
+  <div class="kpi"><div class="v crit">14.4%</div><div class="l">best honest MIN(IS,OOS) across ~200 configs (traded days)</div></div>
+  <div class="kpi"><div class="v acc">p ≥ 0.63</div><div class="l">win rate the DoD requires at RR 2.5 (best case, max trigger density)</div></div>
+  <div class="kpi"><div class="v crit">p ≈ 0.22</div><div class="l">win rate actually measured at that same structure, after costs</div></div>
+  <div class="kpi"><div class="v ok">0</div><div class="l">DD breaches in compliant configs on DEV (guard + trailing halt)</div></div>
+</div>
+
+<h2><span class="n">01</span>Why every earlier number was too good</h2>
+<p class="lede">Four independent defects in the previous scoring path each inflated results. With all four fixed, the harness reproduces the known ground truth exactly (50.9% win at 1:1, frictionless — the coin flip measured nine other ways).</p>
+<div class="tblwrap"><table>
+  <tr><th>Defect</th><th>What it did</th><th>Fix in <span class="m">s11.py</span></th></tr>
+  <tr><td><b>Stale-fill look-ahead</b></td><td>Entries filled at the just-closed bar's open — a 5-minute-old price, systematically favorable for momentum entries</td><td>Fill at the <b>next</b> bar's open</td></tr>
+  <tr><td><b>Frictionless costs</b></td><td>Spread modeled as 3 × 0.01 = 0.03 index points (~zero); real floor is 3.0 points ≈ 0.10–0.25R per trade at 1-ATR stops</td><td>Flat 3.0 index-point spread on every fill</td></tr>
+  <tr><td><b>Compounding inflation</b></td><td>Risk sized on current balance while the +2.5% target was scored vs initial — late days passed mechanically</td><td>Every day is an independent trial from a fixed 100k base</td></tr>
+  <tr><td><b>Risk above R-1</b></td><td>Headline configs ran 2% risk per trade; the law book caps at 1%</td><td>Hard 1% cap; adaptive throttle and entry guard on top</td></tr>
+</table></div>
+<p class="note" style="margin-top:12px">Honest re-score of the old 60.6% config: <b>11.7%</b> pass (traded days), average −0.18R per trade. The DD machinery, however, is real — trailing-DD halts and the entry guard held breaches at zero across the development slice.</p>
+
+<h2><span class="n">02</span>The requirement curve — what 90% actually demands</h2>
+<p class="lede">Keep the real licensed trigger stream (same days, same trigger times, same guard/halt/lock/EOD machinery), but replace trade outcomes with a synthetic win probability <i>p</i> at RR 2.5. The curve shows day-pass rate as a function of per-trade quality — separating what selection <i>could</i> deliver from what the day-geometry permits.</p>
+
+<div class="fig">
+  <h3>Day-pass rate vs per-trade win probability (RR 2.5, 1% risk)</h3>
+  <p class="cap">Two license structures, DEV 2020–2024. Even a fantasy 80% win rate under the compliant license fails the traded-day bar; the all-days bar is capped by coverage at any win rate.</p>
+  <div class="legend">
+    <span><i class="sw" style="background:var(--s1)"></i>pass % of traded days</span>
+    <span><i class="sw" style="background:var(--s2)"></i>pass % of all market days</span>
+    <span><i class="sw" style="background:transparent; height:0; border-top:2px dashed var(--s3)"></i>90% Definition of Done</span>
+  </div>
+  <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); gap:8px">
+    <div class="chartbox" id="rc1"></div>
+    <div class="chartbox" id="rc2"></div>
+  </div>
+  <details><summary>Data table</summary><div class="tblwrap" style="margin-top:8px"><table id="rcTable"></table></div></details>
+</div>
+
+<h2><span class="n">03</span>The coverage–quality frontier — and why no gate escapes it</h2>
+<p class="lede">Every gate combination the framework offers (energy H1/M5/both, F-2 census, SY-1 unanimity, F-1 dual-TF, sessions, trigger families, stop multiples) lands on one monotone frontier: win rate rises only as day coverage collapses. The requirement sits far above it at every coverage.</p>
+
+<div class="fig">
+  <h3>Measured win rate at RR 2.5 vs day coverage (each point = a gate configuration)</h3>
+  <p class="cap">The frontier gains ~1 point of win rate per ~20 points of coverage sacrificed. The dashed requirement line (from §02) is what 90% of traded days demands at each coverage. The one point above 40% win (n = 32 trades) collapsed to 18.8% win out-of-sample.</p>
+  <div class="legend">
+    <span><i class="sw" style="background:var(--s1)"></i>achieved (DEV, honest costs)</span>
+    <span><i class="sw" style="background:transparent; height:0; border-top:2px dashed var(--s3)"></i>required for 90% of traded days</span>
+  </div>
+  <div class="chartbox" id="frontier"></div>
+  <details><summary>Data table</summary><div class="tblwrap" style="margin-top:8px"><table id="frTable"></table></div></details>
+</div>
+
+<h2><span class="n">04</span>Final walk-forward results (tuned on 2020–24, OOS untouched 2024–26)</h2>
+<div class="tblwrap"><table>
+  <tr><th>Config</th><th>DEV MIN(H1,H2)</th><th>OOS pass (traded)</th><th>OOS pass (all days)</th><th>OOS avg R</th><th>Contract MIN(IS,OOS)</th></tr>
+  <tr><td><b>A</b> — compliant STRAT-011 (CCI trigger, H1 energy, RR 2.5)</td><td class="num">13.3%</td><td class="num">12.9%</td><td class="num">7.4%</td><td class="num neg">−0.198</td><td class="num"><b>12.9%</b></td></tr>
+  <tr><td><b>B</b> — best sweep MIN (E-1 pullback trigger, H1 energy, RR 2.5)</td><td class="num">16.0%</td><td class="num">14.4%</td><td class="num">8.8%</td><td class="num neg">−0.109</td><td class="num"><b>14.4%</b></td></tr>
+  <tr><td><b>C</b> — best-EV pocket (NY session, both-TF energy; +0.41R on 32 DEV trades)</td><td class="num">6.2%</td><td class="num">6.7%</td><td class="num">0.2%</td><td class="num neg">−0.495</td><td class="num">collapsed OOS</td></tr>
+</table></div>
+<p class="note" style="margin-top:12px">IS ≈ OOS for A and B — the strategies generalize; they are simply −EV after real costs. Config C is the cautionary tale: the only pocket with apparent edge was noise at n = 32, exactly as its half-split instability warned. Consistency check (user directive): worst rolling-30-day pass rate was 0–3% in <b>every</b> configuration — nothing sustains "many days in a row".</p>
+
+<h2><span class="n">05</span>Verdict</h2>
+<div class="verdict">
+  <p><b>The Definition of Done — 90% on MIN(IS,OOS) — is not achievable on this data.</b> Proof stack, each leg independent:</p>
+  <p>① <b>Requirement vs achievement:</b> 90% of traded days needs p ≥ 0.63–0.82 at RR 2.5 (structure-dependent); eleven selection methods across two sessions measure p = 0.20–0.30 at any usable coverage. ② <b>Coverage cap:</b> the compliant license fires on ~50% of days, so 90% of <i>all</i> days is impossible even if every licensed trade won. ③ <b>Day geometry:</b> 4% trailing DD with 1% risk allows ~3 losses per day; no measured win rate survives that budget. ④ <b>Frontier flatness:</b> tightening gates buys ~1pt of win rate per 20pts of coverage — far too little slope to ever reach the requirement.</p>
+  <p>What <i>would</i> change the answer: an input with real predictive content at this horizon — order-flow/tick microstructure, ES/NQ/VIX cross-asset leads, news-calendar timing — none of which exists in M1 OHLCV.</p>
+</div>
+
+<h2><span class="n">06</span>What the mission did deliver</h2>
+<ul>
+  <li><b><span class="m">s11.py</span></b> — an honest FTMO day-scorer: next-bar fills, 3-point spread, day-independent scoring, path-accurate trailing DD (synthetic halt level, DD-before-target inside each bar), ≤1% risk, consistency metrics. Any future idea can be scored truthfully in seconds.</li>
+  <li><b><span class="m">s11_diag.py</span></b> — the requirement-curve tool: tells you <i>before</i> building a strategy what win rate its trigger density must deliver.</li>
+  <li><b>A refusal machine that works</b> — the gravity gates are genuinely selective and the DD-safety layer held zero breaches in compliant configs. The machine is safe; the market at this resolution offers it nothing to harvest after costs.</li>
+  <li><b>Five documented bug classes</b> that manufacture fake edges (R-normalization, no-stop exits, stale fills, frictionless spread, compounding inflation) — the checklist that separates every prior "breakthrough" from reality.</li>
+</ul>
+
+<h2><span class="n">07</span>Method notes</h2>
+<ul style="font-size:13.5px; color:var(--ink-2)">
+  <li>Data: 6 years US30 M1 OHLCV (2020-07 → 2026-05), ~2.0M bars, ~400k M5 decision bars. Closed bars only; HTF features from the last closed HTF bar; no look-ahead anywhere.</li>
+  <li>Costs: 3.0 index-point spread on every fill (mission floor); slippage 0 beyond next-bar-open fills, stated assumption.</li>
+  <li>Protocol: all tuning on DEV (2020-07…2024-06); final OOS (2024-07…2026-05, 264+ trading days ≥ 30 required) evaluated once, at the end. Full 6-year runs as robustness check (A: 13.6% traded / avg −0.10R; B: 16.2% / −0.14R).</li>
+  <li>Day definition: every calendar day with market data counts; a day passes only by locking +2.5% of initial balance without the trailing 4% daily DD ever firing (checked on balance and floating equity, DD before target). Both traded-day and all-day rates reported everywhere.</li>
+</ul>
+</div>
+
+<script>
+(function () {
+  const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+  function lineChart(el, opt) {
+    const W = 440, H = 300, m = { t: 18, r: 16, b: 40, l: 44 };
+    const iw = W - m.l - m.r, ih = H - m.t - m.b;
+    const x = v => m.l + (v - opt.x0) / (opt.x1 - opt.x0) * iw;
+    const y = v => m.t + (1 - (v - opt.y0) / (opt.y1 - opt.y0)) * ih;
+    let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${opt.title}">`;
+    for (let gy = opt.y0; gy <= opt.y1; gy += opt.ystep) {
+      s += `<line x1="${m.l}" y1="${y(gy)}" x2="${W - m.r}" y2="${y(gy)}" stroke="${css('--grid')}" stroke-width="1"/>`;
+      s += `<text x="${m.l - 8}" y="${y(gy) + 4}" text-anchor="end" font-size="10.5" font-family="${css('--mono')}" fill="${css('--ink-3')}">${gy}</text>`;
+    }
+    (opt.xticks || []).forEach(t => {
+      s += `<text x="${x(t)}" y="${H - m.b + 16}" text-anchor="middle" font-size="10.5" font-family="${css('--mono')}" fill="${css('--ink-3')}">${opt.xfmt ? opt.xfmt(t) : t}</text>`;
+    });
+    s += `<text x="${m.l + iw / 2}" y="${H - 6}" text-anchor="middle" font-size="11" fill="${css('--ink-2')}">${opt.xlabel}</text>`;
+    if (opt.dod !== undefined) {
+      s += `<line x1="${m.l}" y1="${y(opt.dod)}" x2="${W - m.r}" y2="${y(opt.dod)}" stroke="${css('--s3')}" stroke-width="2" stroke-dasharray="6 4"/>`;
+      s += `<text x="${W - m.r - 2}" y="${y(opt.dod) - 6}" text-anchor="end" font-size="10.5" font-weight="600" font-family="${css('--mono')}" fill="${css('--s3')}">90% DoD</text>`;
+    }
+    opt.series.forEach(sr => {
+      const pts = sr.pts.map(p => `${x(p[0])},${y(p[1])}`).join(" ");
+      s += `<polyline points="${pts}" fill="none" stroke="${sr.c}" stroke-width="2" ${sr.dash ? `stroke-dasharray="${sr.dash}"` : ""}/>`;
+      sr.pts.forEach(p => { s += `<circle cx="${x(p[0])}" cy="${y(p[1])}" r="3.5" fill="${sr.c}" stroke="${css('--card')}" stroke-width="2"/>`; });
+      const lp = sr.pts[sr.pts.length - 1];
+      s += `<text x="${x(lp[0]) - 4}" y="${y(lp[1]) + (sr.dy || -8)}" text-anchor="end" font-size="10.5" font-weight="600" fill="${sr.c}">${sr.name}</text>`;
+    });
+    if (opt.marker) {
+      s += `<line x1="${x(opt.marker.x)}" y1="${m.t}" x2="${x(opt.marker.x)}" y2="${H - m.b}" stroke="${css('--ink-3')}" stroke-width="1.5" stroke-dasharray="2 3"/>`;
+      s += `<text x="${x(opt.marker.x) + 5}" y="${m.t + 12}" font-size="10.5" font-weight="600" font-family="${css('--mono')}" fill="${css('--ink-2')}">${opt.marker.label}</text>`;
+    }
+    s += `<text x="${m.l}" y="${m.t - 5}" font-size="11.5" font-weight="600" fill="${css('--ink')}">${opt.title}</text></svg>`;
+    el.innerHTML = s + `<div class="tip"></div>`;
+    const tip = el.querySelector(".tip"), svg = el.querySelector("svg");
+    svg.addEventListener("mousemove", ev => {
+      const r = svg.getBoundingClientRect();
+      const vx = (ev.clientX - r.left) / r.width * W;
+      let best = null, bd = 1e9;
+      opt.series.forEach(sr => sr.pts.forEach(p => { const d = Math.abs(x(p[0]) - vx); if (d < bd) { bd = d; best = { sr, p }; } }));
+      if (best && bd < 40) {
+        tip.style.left = (x(best.p[0]) / W * r.width) + "px";
+        tip.style.top = (y(best.p[1]) / H * r.height) + "px";
+        tip.textContent = `${opt.xfmt ? opt.xfmt(best.p[0]) : best.p[0]} · ${best.sr.name}: ${best.p[1]}%`;
+        tip.style.opacity = 1;
+      } else tip.style.opacity = 0;
+    });
+    svg.addEventListener("mouseleave", () => tip.style.opacity = 0);
+  }
+
+  const compliant = {
+    p: [0.30, 0.40, 0.50, 0.60, 0.70, 0.80],
+    traded: [36.4, 49.1, 60.7, 71.3, 80.4, 88.2],
+    all: [18.4, 24.8, 30.7, 36.0, 40.6, 44.6], meas: 0.267
+  };
+  const maxd = {
+    p: [0.35, 0.40, 0.45, 0.50, 0.55, 0.60],
+    traded: [55.5, 63.4, 70.5, 76.8, 82.1, 86.5],
+    all: [49.8, 56.9, 63.3, 68.9, 73.7, 77.7], meas: 0.218
+  };
+  function rc(el, d, title) {
+    lineChart(el, {
+      title, x0: 0.28, x1: 0.84, y0: 0, y1: 100, ystep: 25,
+      xticks: [0.3, 0.4, 0.5, 0.6, 0.7, 0.8], xfmt: v => "p=" + v.toFixed(2),
+      xlabel: "per-trade win probability at RR 2.5", dod: 90,
+      marker: { x: d.meas, label: "measured p≈" + d.meas.toFixed(2) },
+      series: [
+        { name: "traded days", c: css("--s1"), pts: d.p.map((p, i) => [p, d.traded[i]]) },
+        { name: "all days", c: css("--s2"), pts: d.p.map((p, i) => [p, d.all[i]]), dy: 14 },
+      ]
+    });
+  }
+  rc(document.getElementById("rc1"), compliant, "Compliant license · cov 50% · 2.4 trig/day");
+  rc(document.getElementById("rc2"), maxd, "Max-density license · cov 90% · 5.9 trig/day");
+
+  const frontierPts = [[3, 40.6], [23, 27.8], [29, 28.5], [36, 28.1], [50, 26.7], [55, 23.7], [61, 25.0], [74, 22.6], [90, 21.8]];
+  const reqPts = [[30, 88], [50, 82], [70, 70], [90, 63.5]];
+  lineChart(document.getElementById("frontier"), {
+    title: "Win rate at RR 2.5 vs day coverage (DEV 2020–24)",
+    x0: 0, x1: 95, y0: 0, y1: 100, ystep: 25,
+    xticks: [0, 25, 50, 75], xfmt: v => v + "%",
+    xlabel: "share of market days the license trades (coverage)",
+    series: [
+      { name: "required for 90% traded", c: css("--s3"), dash: "6 4", pts: reqPts },
+      { name: "achieved frontier", c: css("--s1"), pts: frontierPts, dy: 14 },
+    ]
+  });
+
+  const rt = document.getElementById("rcTable");
+  rt.innerHTML = "<tr><th>win p</th><th>compliant · traded</th><th>compliant · all</th><th>max-density · traded</th><th>max-density · all</th></tr>" +
+    [0.30, 0.35, 0.40, 0.45, 0.50, 0.55, 0.60, 0.70, 0.80].map(p => {
+      const f = (d, k) => { const i = d.p.indexOf(p); return i < 0 ? "—" : d[k][i] + "%"; };
+      return `<tr><td class="num">${p.toFixed(2)}</td><td class="num">${f(compliant, "traded")}</td><td class="num">${f(compliant, "all")}</td><td class="num">${f(maxd, "traded")}</td><td class="num">${f(maxd, "all")}</td></tr>`;
+    }).join("");
+  document.getElementById("frTable").innerHTML =
+    "<tr><th>coverage</th>" + frontierPts.map(p => `<td class="num">${p[0]}%</td>`).join("") + "</tr>" +
+    "<tr><th>win rate</th>" + frontierPts.map(p => `<td class="num">${p[1]}%</td>`).join("") + "</tr>";
+})();
+</script>

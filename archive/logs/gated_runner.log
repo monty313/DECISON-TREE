@@ -1,0 +1,6 @@
+GATED sequential trailing-runner (non-overlap, costs). R in units of 1*ATR risk:
+  trail1.0 H240: trades 3779  win 11%  EV -0.832R  totR -3143
+  trail1.5 H480: trades 3274  win 11%  EV -0.848R  totR -2775
+  trail2.0 H720: trades 2861  win 11%  EV -0.834R  totR -2387
+  trail2.5 H720: trades 2524  win 11%  EV -0.795R  totR -2007
+DONE_GR

@@ -1,0 +1,25 @@
+long-winner base rate: 15.9%  n=46174
+
+TOP 15 existing features by MI vs long-winner label:
+  h1_cci100                MI=0.0928
+  h1_sw200                 MI=0.0915
+  h1_sw14                  MI=0.0910
+  h1_sw50                  MI=0.0895
+  h4_sw14                  MI=0.0803
+  h4_ema20_sl              MI=0.0785
+  h4_sw50                  MI=0.0781
+  h4_sw200                 MI=0.0773
+  m1_dist_lo20h            MI=0.0754
+  m1_bbmtf_pbL             MI=0.0703
+  m30_cci100               MI=0.0662
+  m30_cci30                MI=0.0662
+  m30_cci300               MI=0.0656
+  m1_rsi12                 MI=0.0654
+  m1_cci30                 MI=0.0615
+
+MI stats: max 0.0928  median 0.0044  (MI~0 => no signal)
+  DT depth4 thr0.5: prec 24.5% picks 11969
+  DT depth4 thr0.6: prec 25.8% picks 9783
+  DT depth4 thr0.7: prec 28.9% picks 1455
+  DT depth4 thr0.8: prec  0.0% picks 0
+DONE_FEAT_SIGNAL

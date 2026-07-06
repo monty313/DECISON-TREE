@@ -1,0 +1,9 @@
+DAY-LEVEL selectivity: only trade days with >= min GreatMove bars
+GreatMove bars/day distribution: median 60 p75 84 p90 108 max 191
+  min GreatMove>=0: pass 57/300=19.0%  breach 20
+  min GreatMove>=20: pass 56/290=19.3%  breach 20
+  min GreatMove>=40: pass 58/245=23.7%  breach 20
+  min GreatMove>=60: pass 58/216=26.9%  breach 18
+  min GreatMove>=80: pass 34/126=27.0%  breach 14
+  min GreatMove>=100: pass 6/49=12.2%  breach 7
+DONE_DAYSEL

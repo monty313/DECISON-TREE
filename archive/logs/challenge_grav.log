@@ -1,0 +1,12 @@
+per-day return: mean +0.15%  win-days 28%  breach-days 20/447
+CHALLENGE-pass (gravity strategy, rolling windows):
+  20-day, +6.0% target, 10% maxDD: challenge-pass 26.6%  (143 windows)
+  20-day, +8.0% target, 10% maxDD: challenge-pass 16.1%  (143 windows)
+  20-day, +10.0% target, 10% maxDD: challenge-pass 8.4%  (143 windows)
+  30-day, +6.0% target, 10% maxDD: challenge-pass 25.9%  (139 windows)
+  30-day, +8.0% target, 10% maxDD: challenge-pass 15.8%  (139 windows)
+  30-day, +10.0% target, 10% maxDD: challenge-pass 8.6%  (139 windows)
+  60-day, +6.0% target, 10% maxDD: challenge-pass 24.8%  (129 windows)
+  60-day, +8.0% target, 10% maxDD: challenge-pass 14.7%  (129 windows)
+  60-day, +10.0% target, 10% maxDD: challenge-pass 8.5%  (129 windows)
+DONE_CHALG

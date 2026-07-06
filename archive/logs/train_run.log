@@ -1,0 +1,22 @@
+[1/3] loading US30_M1_202007231046_202605262359.csv ...
+      point auto-inferred: 0.1
+      1,998,381 M1 bars  2020-07-23 10:46:00 -> 2026-05-26 23:59:00
+[2/3] building feature matrix (all EA strategies) ...
+      205 features x 399,984 M5 decision bars
+[3/3] simulating M1 BB(20,1) exits for labels ...
+      usable bars: 152,121  (features ready 98%, exit-sim valid 38%)
+labels: flat 84.0%  long 9.7%  short 6.3%
+
+WALK-FORWARD  train 200d / test 40d
+ fold  1 2021-05-18..2021-07-03  pass   0/ 36 (  0.0%)  ddBreach 24  trades   612  win 20.3%  ret   -65.8%
+ fold  2 2021-07-05..2021-08-24  pass   0/ 38 (  0.0%)  ddBreach 35  trades   648  win 19.9%  ret   -73.3%
+ fold  3 2021-08-25..2021-10-12  pass   1/ 37 (  2.7%)  ddBreach 27  trades   644  win 22.4%  ret   -62.7%
+ fold  4 2021-10-13..2021-12-02  pass   0/ 37 (  0.0%)  ddBreach 31  trades   614  win 18.4%  ret   -68.2%
+ fold  5 2021-12-03..2022-01-22  pass   1/ 36 (  2.8%)  ddBreach 32  trades   631  win 20.3%  ret   -68.9%
+ fold  6 2022-01-24..2022-03-11  pass   0/ 37 (  0.0%)  ddBreach 34  trades   566  win 18.9%  ret   -68.4%
+ fold  7 2022-03-12..2022-04-29  pass   0/ 36 (  0.0%)  ddBreach 33  trades   602  win 20.9%  ret   -71.0%
+ fold  8 2022-05-02..2022-06-17  pass   1/ 36 (  2.8%)  ddBreach 33  trades   727  win 21.9%  ret   -64.9%
+ fold  9 2022-06-18..2022-08-10  pass   1/ 39 (  2.6%)  ddBreach 37  trades   771  win 22.8%  ret   -71.8%
+ fold 10 2022-08-11..2022-10-05  pass   1/ 40 (  2.5%)  ddBreach 38  trades   763  win 22.0%  ret   -72.4%
+ fold 11 2022-10-06..2022-11-30  pass   2/ 40 (  5.0%)  ddBreach 37  trades   703  win 17.5%  ret   -72.0%
+ fold 12 2022-12-01..2023-01-27  pass   1/ 40 (  2.5%)  ddBreach 38  trades   567  win 16.4%  ret   -75.4%

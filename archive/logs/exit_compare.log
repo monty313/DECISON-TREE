@@ -1,0 +1,4 @@
+exit A [Law0+midflip(current)]: trades 1612 win 37% EV +0.03R avgWin +0.95R avgLoss -0.51R  >=2.5R: 2.6%
+exit B [Law0-only(let run)]: trades 1612 win 37% EV +0.03R avgWin +0.95R avgLoss -0.51R  >=2.5R: 2.6%
+exit C [Law0+gravity-fail]: trades 1612 win 37% EV +0.03R avgWin +0.95R avgLoss -0.51R  >=2.5R: 2.6%
+DONE_EXIT

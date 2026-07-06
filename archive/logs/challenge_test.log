@@ -1,0 +1,21 @@
+
+label 1.0:1.0ATR daily-first-trade win 47.3%  (410 days)
+  risk 1.0% target +8.0% (30-day, maxDD10%): challenge-pass  10.5%  (76 windows)
+  risk 1.0% target +10.0% (30-day, maxDD10%): challenge-pass   9.2%  (76 windows)
+  risk 1.5% target +8.0% (30-day, maxDD10%): challenge-pass  31.6%  (76 windows)
+  risk 1.5% target +10.0% (30-day, maxDD10%): challenge-pass  18.4%  (76 windows)
+  risk 2.0% target +8.0% (30-day, maxDD10%): challenge-pass  44.7%  (76 windows)
+  risk 2.0% target +10.0% (30-day, maxDD10%): challenge-pass  36.8%  (76 windows)
+  risk 2.5% target +8.0% (30-day, maxDD10%): challenge-pass  36.8%  (76 windows)
+  risk 2.5% target +10.0% (30-day, maxDD10%): challenge-pass  36.8%  (76 windows)
+
+label 1.5:1.0ATR daily-first-trade win 39.5%  (410 days)
+  risk 1.0% target +8.0% (30-day, maxDD10%): challenge-pass  22.4%  (76 windows)
+  risk 1.0% target +10.0% (30-day, maxDD10%): challenge-pass  15.8%  (76 windows)
+  risk 1.5% target +8.0% (30-day, maxDD10%): challenge-pass  35.5%  (76 windows)
+  risk 1.5% target +10.0% (30-day, maxDD10%): challenge-pass  27.6%  (76 windows)
+  risk 2.0% target +8.0% (30-day, maxDD10%): challenge-pass  30.3%  (76 windows)
+  risk 2.0% target +10.0% (30-day, maxDD10%): challenge-pass  22.4%  (76 windows)
+  risk 2.5% target +8.0% (30-day, maxDD10%): challenge-pass  13.2%  (76 windows)
+  risk 2.5% target +10.0% (30-day, maxDD10%): challenge-pass  13.2%  (76 windows)
+DONE_CHAL

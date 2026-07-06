@@ -1,0 +1,7 @@
+TRAILING-RUNNER expectancy (R/trade). EV>0 => positive-expectancy system:
+  SL1.0 trail1.5 H240m: LONG EV +0.151R win 35%  SHORT EV +0.165R win 35%  (n=15392)
+  SL1.0 trail2.0 H480m: LONG EV +0.282R win 32%  SHORT EV +0.235R win 32%  (n=15392)
+  SL0.7 trail1.0 H240m: LONG EV +0.230R win 37%  SHORT EV +0.276R win 37%  (n=15392)
+  SL1.5 trail2.0 H720m: LONG EV +0.162R win 37%  SHORT EV +0.145R win 36%  (n=15392)
+  SL1.0 trail3.0 H720m: LONG EV +0.329R win 26%  SHORT EV +0.303R win 26%  (n=15392)
+DONE_RUNNER

@@ -1,0 +1,6 @@
+SUPER-entry win-rate comparison (M5 fast CCI extreme filter):
+  baseline (any synergy): trades 1612 win 37% EV +0.036R avgWin +0.95R
+  fast CCI beyond +/-60 (Super outbreak): trades 1397 win 36% EV +0.016R avgWin +0.94R
+  fast CCI beyond +/-100 (Super outbreak): trades 1125 win 36% EV +0.002R avgWin +0.94R
+  fast CCI beyond +/-150 (Super outbreak): trades 597 win 35% EV +0.006R avgWin +1.02R
+DONE_SUPER

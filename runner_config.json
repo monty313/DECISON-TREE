@@ -1,0 +1,36 @@
+{
+  "name": "S11 Runner — long-only NY-session drift capture (validated 2026-07-06)",
+  "cfg": {
+    "side": "long",
+    "trigger": "cci",
+    "rr": 99,
+    "sl_mult": 2.0,
+    "min_sd": 15,
+    "session": [990, 1380],
+    "energy": "none",
+    "license": "none",
+    "risk_pct": 1.0,
+    "target": 2.5,
+    "ddh": 3.5,
+    "ddf": 4.0,
+    "guard": true,
+    "eod": true,
+    "adapt": false,
+    "spread": "data"
+  },
+  "reproduce": "python s11.py --cache s11_full.joblib --slice final --cfg \"{\\\"side\\\":\\\"long\\\",\\\"trigger\\\":\\\"cci\\\",\\\"rr\\\":99,\\\"sl_mult\\\":2.0,\\\"min_sd\\\":15,\\\"session\\\":[990,1380],\\\"energy\\\":\\\"none\\\",\\\"license\\\":\\\"none\\\"}\"",
+  "results": {
+    "dev_2020_2024": {"avgR": 0.075, "pass_traded_pct": 12.9, "breaches": 1},
+    "oos_2024_2026": {"avgR": 0.025, "trades": 825, "win_pct": 31.6, "coverage_pct": 90.2, "pass_traded_pct": 12.9, "breaches": 0, "triggers_per_day": 2.5},
+    "full_6yr": {"daily_ev_pct": 0.109, "worst_day_pct": -2.97},
+    "ftmo_phase_sim": {
+      "note": "real FTMO rules: +10% P1 / +5% P2, 5% daily loss, 10% overall, compounding, sliding origins",
+      "full_6yr": {"p1_pass_pct": 72.0, "p2_pass_pct": 78.5, "funded_pct": 56.5, "p1_median_days": 30},
+      "oos_2024_2026": {"p1_pass_pct": 59.1, "p2_pass_pct": 71.3, "funded_pct": 42.1, "p1_median_days": 40}
+    }
+  },
+  "honest_limits": {
+    "day_pass_90pct_goal": "unreachable on M1 OHLCV — requirement curve needs win-p 0.63-0.82 at RR2.5; measured 0.20-0.33; optional-stopping caps any zero-drift policy at 58.3%",
+    "edge_size": "+0.05 to +0.11%/day — survival and repeatability, not speed"
+  }
+}

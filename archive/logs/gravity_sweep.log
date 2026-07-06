@@ -1,0 +1,10 @@
+building gravity features...
+  120111 M5 bars, entries L=2108 S=1825
+=== GRAVITY-FTMO sweep: 24 configs, rank by MIN(IS,OOS) ===
+[ 1/24] IS  14.0 OOS   9.8 MIN   9.8 (oos 17/174d brch 3) 14s | BEST   9.8 {'risk_pct': 0.5, 'sl_atr': 0.7, 'dd_halt_pct': 3.5}
+[ 2/24] IS  14.0 OOS   9.8 MIN   9.8 (oos 17/174d brch 3) 15s | BEST   9.8 {'risk_pct': 0.5, 'sl_atr': 0.7, 'dd_halt_pct': 3.5}
+[ 3/24] IS   8.0 OOS   5.7 MIN   5.7 (oos 10/174d brch 0) 14s | BEST   9.8 {'risk_pct': 0.5, 'sl_atr': 0.7, 'dd_halt_pct': 3.5}
+[ 4/24] IS   8.0 OOS   5.7 MIN   5.7 (oos 10/174d brch 0) 15s | BEST   9.8 {'risk_pct': 0.5, 'sl_atr': 0.7, 'dd_halt_pct': 3.5}
+[ 5/24] IS   3.5 OOS   1.7 MIN   1.7 (oos 3/174d brch 0) 14s | BEST   9.8 {'risk_pct': 0.5, 'sl_atr': 0.7, 'dd_halt_pct': 3.5}
+[ 6/24] IS   3.5 OOS   1.7 MIN   1.7 (oos 3/174d brch 0) 14s | BEST   9.8 {'risk_pct': 0.5, 'sl_atr': 0.7, 'dd_halt_pct': 3.5}
+[ 7/24] IS  25.5 OOS  13.2 MIN  13.2 (oos 23/174d brch 17) 15s | BEST  13.2 {'risk_pct': 1.0, 'sl_atr': 0.7, 'dd_halt_pct': 3.5}

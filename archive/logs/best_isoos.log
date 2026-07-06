@@ -1,0 +1,7 @@
+BEST-BRANCH walk-forward IS/OOS/MIN (contract number):
+  risk1.5% ddh3.5 adaptFalse: IS 16.8% OOS 17.8% MIN 16.8% (oos 180d, brch 51)
+  risk1.5% ddh3.5 adaptTrue: IS 25.2% OOS 21.1% MIN 21.1% (oos 180d, brch 10)
+  risk2.0% ddh3.5 adaptFalse: IS 14.7% OOS 15.6% MIN 14.7% (oos 180d, brch 79)
+  risk1.5% ddh2.5 adaptTrue: IS 20.6% OOS 17.8% MIN 17.8% (oos 180d, brch 9)
+  risk1.0% ddh3.5 adaptFalse: IS 19.7% OOS 18.3% MIN 18.3% (oos 180d, brch 29)
+DONE_ISOOS

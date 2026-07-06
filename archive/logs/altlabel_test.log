@@ -1,0 +1,7 @@
+ALT label TP=1.0ATR SL=1.0ATR H=60m: long-win base 49.7%  short-win 49.2%
+    bull-regime long-win 49.6% (n=23997)  bear-regime short-win 49.0% (n=22177)
+ALT label TP=1.5ATR SL=1.0ATR H=120m: long-win base 41.2%  short-win 40.9%
+    bull-regime long-win 40.9% (n=23997)  bear-regime short-win 40.8% (n=22177)
+ALT label TP=2.0ATR SL=1.0ATR H=180m: long-win base 35.2%  short-win 34.8%
+    bull-regime long-win 34.8% (n=23997)  bear-regime short-win 34.7% (n=22177)
+DONE_ALT

@@ -1,0 +1,40 @@
+[
+  {
+    "IS": 2.8862478777589136,
+    "OOS": 2.8708133971291865,
+    "MIN": 2.8708133971291865,
+    "is_days": 1178,
+    "oos_days": 209,
+    "oos_pass": 6,
+    "oos_breach": 2,
+    "trades": 2186,
+    "cfg": {
+      "conf_min": 0.55,
+      "tp_R": 1.0,
+      "risk_pct": 0.5,
+      "max_trades_day": 0,
+      "label_min_R": 0.5,
+      "min_samples_leaf": 250,
+      "conf_margin": 0.1
+    }
+  },
+  {
+    "IS": 0.5937234944868532,
+    "OOS": 1.4354066985645932,
+    "MIN": 0.5937234944868532,
+    "is_days": 1179,
+    "oos_days": 209,
+    "oos_pass": 3,
+    "oos_breach": 0,
+    "trades": 624,
+    "cfg": {
+      "conf_min": 0.55,
+      "tp_R": 1.0,
+      "risk_pct": 0.5,
+      "max_trades_day": 3,
+      "label_min_R": 0.5,
+      "min_samples_leaf": 250,
+      "conf_margin": 0.1
+    }
+  }
+]

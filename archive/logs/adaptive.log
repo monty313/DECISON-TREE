@@ -1,0 +1,14 @@
+adaptive risk + early DD-halt sweep (whole slice):
+  risk1.5% ddhalt2.0%: pass 63/307=20.5%  breach 20  ret +134%
+  risk1.5% ddhalt2.5%: pass 66/307=21.5%  breach 21  ret +145%
+  risk1.5% ddhalt3.0%: pass 64/307=20.8%  breach 23  ret +131%
+  risk2.0% ddhalt2.0%: pass 41/307=13.4%  breach 26  ret +134%
+  risk2.0% ddhalt2.5%: pass 69/307=22.5%  breach 34  ret +205%
+  risk2.0% ddhalt3.0%: pass 70/307=22.8%  breach 35  ret +211%
+  risk2.5% ddhalt2.0%: pass 42/307=13.7%  breach 25  ret +115%
+  risk2.5% ddhalt2.5%: pass 59/307=19.2%  breach 31  ret +241%
+  risk2.5% ddhalt3.0%: pass 77/307=25.1%  breach 38  ret +284%
+  risk3.0% ddhalt2.0%: pass 47/307=15.3%  breach 29  ret +162%
+  risk3.0% ddhalt2.5%: pass 46/307=15.0%  breach 29  ret +148%
+  risk3.0% ddhalt3.0%: pass 49/307=16.0%  breach 36  ret +183%
+DONE_ADAPT

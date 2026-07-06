@@ -1,0 +1,13 @@
+=== building features + labels once ===
+[1/3] loading _smoke.csv ...
+      point auto-inferred: 0.1
+      600,000 M1 bars  2024-07-16 19:43:00 -> 2026-05-26 23:59:00
+[2/3] building feature matrix (all EA strategies) ...
+      205 features x 120,124 M5 decision bars
+[3/3] simulating M1 BB(20,1) exits for labels ...
+      usable bars: 46,174  (features ready 92%, exit-sim valid 42%)
+    ready in 16s   205 feats x 46,174 bars   410 trading days
+    TUNE folds start < day-idx 360 | HOLDOUT = last 2 folds
+
+=== sweeping 24 configs on TUNE window ===
+  [  1/24] tune   3.1% (pass 5/159, tr 1712, brch 1)  127s  | best   3.1% {'conf_min': 0.55, 'tp_R': 1.0, 'risk_pct': 0.5, 'max_trades_day': 0, 'label_min_R': 0.5, 'min_samples_leaf': 250, 'conf_margin': 0.1}

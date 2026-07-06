@@ -1,0 +1,7 @@
+LONG exit reasons (mid rule): {'law0': 843, 'midflip': 0, 'end': 0}  total 843
+  law0-bound: 100%  midflip: 0%
+  avg duration 2.5 M5 bars (13 min)  median 2
+  trades lasting >=6 bars(30min): 65/843 = 8%
+
+H1-GRAVITY-ONLY exit: trades 183 win 40% EV +1.099R avgWin +4.25R avgLoss -1.04R avgDur 320min >=2.5R:19.1%
+DONE_DBG

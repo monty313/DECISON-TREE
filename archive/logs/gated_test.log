@@ -1,0 +1,8 @@
+total M5 bars: 120124
+Law0 long-ok: 16.5%  Bull regime: 25.2%  GreatMove: 20.9%  synUp: 32.7%
+GATED long bars: 2108 (1.75%)  short bars: 1825 (1.52%)
+
+=== GATED win-rate (ONLY bars passing full gate) ===
+  gated trades: 3933  win 49.1%  (vs 49.7% ungated baseline)
+  trading days with >=1 gated setup: 300/447  avg setups/day (active): 13.1
+DONE_GATED
